@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    font-family: "Roboto", sans-serif;
+}
+
+
+body{
+    background-color: #5C7285;
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
+    min-height: 400px;
+}
+
+
+header {
+    padding: 15px;
+    background-color: #16404D;
+    width: 1000%;
+   
+}
+
+
+a{
+    text-decoration: none;
+    color: #E2E0C8;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 3px
+}
+
+
+a.active,a:hover{
+    background-color: #818C78;
+}
+
+
+.bahay{
+    margin-left: 510px;
+    width: 400px;  
+    height: 250px;
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+
+article, tr, h3{
+    color: white;
+   
+}
+
+
+h1,h5{
+    color: #E2E0C8;
+}
+
+
+article{
+    text-align: center;
+}
+
+
+table{
+    margin: auto;
+    border: solid;
+    width: 50%;
+    text-align: center;
+}
+
+
+label{
+    color: #E2E0C8;
+}
+
+
+form div label, form div input {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+
+
+
+form div label {
+    margin-top: 10px;
+    margin-left: 525px;
+    width: 80px;
+    text-align: left;
+}
+
+
+
+
+form div input {
+    width: 100%;
+    max-width: 250px;
+    padding: 5px;
+}
+
+
+
+
+button{
+    margin-left: 815px;
+}
+
+
+.profile {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1, h3, h5{
+    text-align: center;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #16404D;
+    color: #E2E0C8;
+}
+
+
+
